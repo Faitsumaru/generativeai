@@ -8,8 +8,8 @@ $form = array(
     'success_redirect' => '',
     'sendIpAddress' => true,
     'email' => array(
-    'from' => '',
-    'to' => 'kgm20011505mail.ru'
+    'from' => 'vrgenerativeai@gmail.com',
+    'to' => ''
     ),
     'fields' => array(
     'name' => array(
