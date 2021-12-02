@@ -1,5 +1,9 @@
-html {
+html, body {
   overflow-x: hidden;
+}
+
+header {
+  overflow-x: visible;
 }
 
 .u-section-1 {
