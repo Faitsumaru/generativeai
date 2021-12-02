@@ -3,10 +3,9 @@
  * License https://froala.com/wysiwyg-editor/terms/
  * Copyright 2014-2020 Froala Labs
  */
- 
-header {
-   overflow: hidden;
-}
+ html, body {
+   overflow-x: hidden;
+ }
 
 .fr-clearfix::after {
   clear: both;
@@ -12749,9 +12748,9 @@ section.u-image,
   position: fixed;
   top: 0;
 }
-@supports (position: sticky) {
+@supports (position: fixed) {
   .u-header.u-sticky {
-    position: sticky;
+    position: fixed;
   }
 }
 @supports (position: -webkit-sticky) {
@@ -12759,6 +12758,7 @@ section.u-image,
     position: -webkit-sticky;
   }
 }
+
 .u-sticky {
   transition: background-color 250ms, box-shadow 250ms;
 }
@@ -12771,7 +12771,8 @@ section.u-image,
 .u-header.u-sticky,
 .u-overlap .u-header {
   z-index: 20;
-  padding-top: 0.1px;
+  padding-top: 0.1px;   
+  width: 100%;
 }
 .u-overlap .u-header.u-sticky {
   position: fixed;
@@ -12799,6 +12800,10 @@ section.u-image,
   bottom: 0;
   pointer-events: none;
   transition: border-width 250ms;
+}
+
+.u-body .u-sticky-fixed {
+  box-shadow: 0;
 }
 
 .u-sheet.u-content-layout {
