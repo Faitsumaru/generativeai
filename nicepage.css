@@ -36962,7 +36962,7 @@ a.u-link.u-text-hover-grey-90:hover {
 
   .u-footer .u-social-icons-1 {
     width: 297px;
-    margin-right: auto;
+    margin-right: calc(((100% - 1140px) / 2) + 63px);
   }
 
   .u-footer .u-text-1 {
