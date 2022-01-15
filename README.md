@@ -1,4 +1,4 @@
-# generativeai
+# GENERATIVE AI
 Generative AI Technology
 
 This is special project 'Generative Artificial Intelligence' site (HTML, CSS & JS) + full adaptive layout!
